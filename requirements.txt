@@ -1,0 +1,7 @@
+matplotlib
+numpy
+gfagraphs
+scipy
+seaborn
+pandas
+tharos-pytools
