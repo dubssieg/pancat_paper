@@ -1,4 +1,4 @@
-# Notebooks on pangenome graph edition
+# Pairwise graph edit distance characterizes the impact of the construction method on pangenome graphs
 
 > [!NOTE]\
 > The present repository contains Jupyter Notebooks and scripts that aims to analyse how two graphs, build with the same set of genomes, can differ. Data used in this experiment is available on [Zenodo](https://doi.org/10.5281/zenodo.10932490).
