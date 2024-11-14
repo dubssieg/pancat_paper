@@ -1,0 +1,9 @@
+[submodule "1_build_graphs/rs-pancat-reconstruct"]
+	path = 1_build_graphs/rs-pancat-reconstruct
+	url = https://github.com/dubssieg/rs-pancat-reconstruct
+[submodule "1_build_graphs/rs-pancat-paths"]
+	path = 1_build_graphs/rs-pancat-paths
+	url = https://github.com/dubssieg/rs-pancat-paths
+[submodule "2_compute_distance/rs-pancat-compare"]
+	path = 2_compute_distance/rs-pancat-compare
+	url = https://github.com/dubssieg/rs-pancat-compare
