@@ -13,7 +13,7 @@ with open(multifasta) as f:
         if line.startswith('>'):
             if out:
                 out.close()
-            sample = f"{line.split('#')[0][1:]}#{line.split('#')[1]}"
+            sample = f"{line.split('#')[0][1:]}.{line.split('#')[1]}"
             out = open(f'{sample}.fasta', 'a')
             out.write(line)
         else:
