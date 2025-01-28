@@ -1,7 +1,7 @@
 # Pairwise graph edit distance characterizes the impact of the construction method on pangenome graphs
 
 > [!NOTE]\
-> The present repository contains Jupyter Notebooks and scripts that aims to analyse how two graphs, build with the same set of genomes, can differ. Data used in this experiment is available on [Zenodo](https://doi.org/10.5281/zenodo.10932490).
+> The present repository contains Jupyter Notebooks and scripts that aims to analyse how two graphs, build with the same set of genomes, can differ. Data used in this experiment is available on [Zenodo](https://zenodo.org/records/14339232).
 
 Graph edition is a vastly studied subject, with many heuristics to compare topologies, and many NP-hard problems. Here, we present a method, relying on the specificities of what a pangenome graph is (a collection of subsequences linked by edges, that represents the embedding of genomes inside a graph structure) to formulate a O(n) solution in this specific case. It allows us to pinpoint dissimilarities between graphs, and we can analyse how such graphs differ when build with different tools, or parameters.
 
@@ -34,7 +34,7 @@ sed -i 's/grch38/GRCH38/g;s/chm13/CHM13/g' graph.gfa
 
 # Edition computation between graphs
 
-All editions between graphs are computed using [rs-pancat-compare](https://github.com/dubssieg/rs-pancat-compare) (v0.1.0). Yeast graphs and supplementary data are available on [Zenodo](https://doi.org/10.5281/zenodo.10932490). When comparing graphs between mgc and pggb, editions are always computed in the order to get the pggb graph out of the mgc graph. As output, we get a tab-separated file containing path name, a position in the haplotype, a one-letter encoding of the operation, and nodes that the operation applies to in first and second graph. 
+All editions between graphs are computed using [rs-pancat-compare](https://github.com/dubssieg/rs-pancat-compare) (v0.1.0). Yeast graphs and supplementary data are available on [Zenodo](https://zenodo.org/records/14339232). When comparing graphs between mgc and pggb, editions are always computed in the order to get the pggb graph out of the mgc graph. As output, we get a tab-separated file containing path name, a position in the haplotype, a one-letter encoding of the operation, and nodes that the operation applies to in first and second graph. 
 
 Data is pre-processed using scripts available [here](https://github.com/dubssieg/pancat_paper/2_compute_distance).
 
