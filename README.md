@@ -49,4 +49,4 @@ We also analyzed differences between *mgc* and *pggb* graphs from the HPRC datas
 
 # Reproduce the figures from the article
 
-Edition file is subsequently processed using Jupyter Notebooks [available in this repository](https://github.com/dubssieg/pancat_paper/tree/main/4_reproduce_figures). Timings and memory consumption were recorded using heaptrack.
+Edition file is subsequently processed using Jupyter Notebooks [available in this repository](https://github.com/dubssieg/pancat_paper/tree/main/4_reproduce_figures). Timings and memory consumption were recorded using heaptrack. All experiments were performed on the system described in [this document](https://github.com/dubssieg/pancat_paper/tree/main/5_supplementary_info).
