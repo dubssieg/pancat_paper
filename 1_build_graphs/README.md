@@ -4,7 +4,7 @@ The file `pipeline_file.txt` is an example of pipeline files used by the scripts
 
 The script `build_mgc.sh` constructs the graphs for every pipeline file in the pipeline folder with minigraph-cactus. Please note that minigraph-cactus does edit these files, so keep a safe copy of them to use with `build_pggb.sh`.
 
-Data to run the scripts is available on [Zenodo](https://doi.org/10.5281/zenodo.10932490).
+Data to run the scripts is available on [Zenodo](https://doi.org/10.5281/zenodo.10932489).
 
 # Consensus human graphs
 
@@ -34,3 +34,5 @@ python split_multifasta.py human_21_intersect.fa
 ```
 
 Finally, we can apply the same steps as for the yeast graphs construction.
+
+As PGGB was using a huge amount of disk space and time, we ended up extracting all sequences from the PGGB graph and build a Minigraph-Cactus graph that has the same content as the HPRC PGGB year 1 graph. Still, the scripts provided here proven to be sucessful at their job, so if you have more disk, RAM and computing time available, feel free to give it a go.
